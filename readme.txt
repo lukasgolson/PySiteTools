@@ -1,31 +1,32 @@
+
+
 # Sindex Package Installation Guide for Windows
 
 ## Installation Steps
 
-Clone or Download the Repository
-Download or clone the repository containing the sindex package:
+### 1. Clone or Download the Repository
+To obtain the `sindex` package, start by downloading or cloning the repository:
 
 ```bash
 git clone https://github.com/lukasgolson/PySiteTools.git
 cd PySiteTools
 ```
 
-Install the Package
-Run the following command in your terminal while in the directory containing setup.py:
+### 2. Install the Package
+With your terminal open in the `PySiteTools` directory (the location containing `setup.py`), run the following command to install the package:
 
 ```bash
 pip install .
 ```
 
-If you want to install the package in editable mode for development purposes:
+If you'd like to install the package in **editable mode** (for development purposes), use:
 
 ```bash
 pip install -e .
 ```
 
-Troubleshooting (Windows)
+## Troubleshooting (Windows)
 
-Permission Issues: If you encounter permission issues, run the command with administrative privileges.
+- **Permission Issues**: If you encounter permission-related issues, try running the command with administrative privileges (e.g., using `Run as Administrator`).
 
-Internet Access: Ensure you have an active internet connection during installation, as the DLL file is downloaded automatically.
-
+- **Internet Access**: Ensure you have an active internet connection during installation, as the necessary DLL file will be downloaded automatically.
